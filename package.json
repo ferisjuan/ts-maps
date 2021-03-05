@@ -1,0 +1,24 @@
+{
+	"scripts": {
+		"start": "parcel serve index.html",
+		"build": "parcel build index.html"
+	},
+	"devDependencies": {
+		"@parcel/optimizer-cssnano": "^2.0.0-nightly.617",
+		"@parcel/optimizer-htmlnano": "^2.0.0-nightly.617",
+		"@parcel/packager-css": "^2.0.0-nightly.617",
+		"@parcel/packager-html": "^2.0.0-nightly.617",
+		"@parcel/transformer-css": "^2.0.0-nightly.617",
+		"@parcel/transformer-html": "^2.0.0-nightly.617",
+		"@parcel/transformer-postcss": "^2.0.0-nightly.617",
+		"@parcel/transformer-posthtml": "^2.0.0-nightly.617",
+		"@types/faker": "^5.1.7",
+		"@types/googlemaps": "^3.43.3",
+		"parcel": "^2.0.0-beta.1",
+		"postcss": "^8.2.7",
+		"typescript": "^4.2.3"
+	},
+	"dependencies": {
+		"faker": "^5.4.0"
+	}
+}
