@@ -5,4 +5,7 @@ import { User } from './User'
 const user = new User()
 const company = new Company()
 
-new Map('map')
+const customMap = new Map('map')
+
+customMap.addMarker(user)
+customMap.addMarker(company)
